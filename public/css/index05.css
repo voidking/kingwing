@@ -1,0 +1,95 @@
+@import url(./partial/base.css);
+@import url(./partial/header.css);
+@import url(./partial/footer.css);
+
+.container{
+	position: relative;
+	padding-top: 4.5rem;
+}
+
+.container .rule{
+	position: absolute;
+	top: 1rem;
+	right: 0rem;
+	width: 8rem;
+	text-align: center;
+}
+
+.container .rule .icon-set{
+	margin: 0 auto;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../img/icon-22.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.container .rule p:first-child{
+	margin-bottom: .6rem;
+}
+
+.container .rule .icon-q{
+	display: inline-block;
+	margin-right: .3rem;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1rem;
+	border: 1px solid #666;
+	border-radius: .5rem;
+}
+
+.container .score{
+	margin: 0 auto;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 5rem;
+	background: #EBEBEB;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.container .score p:first-child{
+	padding-top: 3rem;
+}
+
+.container .score-detail .detail{
+	margin: 2rem auto 0;
+	border: 1px solid #ccc;
+    line-height: 0px;
+    position: relative;
+    width: 96%;
+}
+
+.detail span{
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	line-height: 2rem;
+	padding: 0 .4rem;
+	font-size: 1.3rem;
+}
+
+.container .score-detail ul{
+	margin-top: 2rem;
+}
+
+.container .score-detail li{
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	padding: .3rem 0 .2rem;
+}
+
+.score-detail li p:first-child{
+	font-size: 1.3rem;
+}
+
+.score-detail li .num{
+	position: absolute;
+	top: 1rem;
+	right: 0rem;
+	font-size: 1.3rem;
+}
+

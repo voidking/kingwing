@@ -1,0 +1,81 @@
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: url(../../img/back.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	padding: .3rem 0 1rem;
+	height: 4rem;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer li{
+	display: inline-block;
+	padding: 0 1.7rem;
+	width: 3rem;
+	height: 4rem;
+	text-align: center;
+}
+
+.footer .icon{
+	margin-bottom: -.4rem;
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+}
+
+.footer .icon-home{
+	background: url(../../img/icon-04.png) no-repeat;
+	background-size: 75% 75%;
+	background-position: center;
+}
+
+.footer .icon-shop{
+	background: url(../../img/icon-05.png) no-repeat;
+	background-size: 55% 65%;
+    background-position: center;
+}
+
+.footer .icon-news{
+	background: url(../../img/icon-06.png) no-repeat;
+	background-size: 75% 60%;
+	background-position: center;
+}
+
+.footer .icon-my{
+	background: url(../../img/icon-07.png) no-repeat;
+	background-size: 65% 65%;
+	background-position: center;
+}
+
+.footer .active{
+	color: #e60012;
+}
+
+.footer .active .icon-home{
+	background: url(../../img/icon-08.png) no-repeat;
+	background-size: 75% 75%;
+	background-position: center;
+}
+
+.footer .active .icon-shop{
+	background: url(../../img/icon-09.png) no-repeat;
+	background-size: 55% 65%;
+    background-position: center;
+}
+
+.footer .active .icon-news{
+	width: 3.5rem;
+	background: url(../../img/icon-10.png) no-repeat;
+	background-size: 75% 60%;
+}
+
+.footer .active .icon-my{
+	background: url(../../img/icon-11.png) no-repeat;
+	background-size: 65% 65%;
+	background-position: center;
+}

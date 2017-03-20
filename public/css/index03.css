@@ -1,0 +1,118 @@
+@import url(./partial/base.css);
+@import url(./partial/header.css);
+@import url(./partial/footer.css);
+
+.userheader{
+	position: relative;
+	width: 100%;
+	height: 9rem;
+	background: url(../img/userback.png) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.userheader .icon-set{
+	position: absolute;
+	top: 3rem;
+	right: 2rem;
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../img/icon-22.png);
+	background-size: 100% 100%;
+}
+
+.userheader img{
+	width: 9rem;
+	height: 9rem;
+	border-radius: 5rem;
+	position: absolute;
+	top: 4.5rem;
+	left: 50%;
+	margin-left: -4.5rem;
+}
+
+.container{
+	margin-bottom: 5.3rem;
+	background: #fff;
+}
+
+.container .info{
+	margin-top: 6rem;
+	text-align: center;
+}
+
+.container .info .nickname{
+	font-size: 1.5rem;
+	margin-right: 1.5rem;
+}
+
+.container .info .address{
+	font-size: 1.5rem;
+	color: #666;
+}
+
+.container .link{
+	margin-top: 3rem;
+}
+
+.container .link a{
+	color: #333;
+	text-decoration: none;
+}
+.container .link li{
+	margin-bottom: .3rem;
+	list-style: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	padding-left: 2rem;
+	font-size: 1.6rem;
+}
+
+.link .icon{
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.link .icon-order{
+	margin-bottom: -.2rem;
+	background: url(../img/icon-18.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.link .icon-score{
+	margin-bottom: -.2rem;
+	background: url(../img/icon-18.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.link .icon-update{
+	margin-bottom: -.2rem;
+	background: url(../img/icon-19.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.link .icon-feedback{
+	margin-bottom: -.2rem;
+	background: url(../img/icon-20.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.link .icon-about{
+	margin-bottom: -.2rem;
+	background: url(../img/icon-21.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.link .icon-more{
+	float: right;
+	margin-top: .7rem;
+	margin-right: 3rem;
+	width: 1.5rem;
+	height: 1.8rem;
+	background: url(../img/more.png) no-repeat;
+	background-size: 100% 100%;
+}

@@ -1,0 +1,29 @@
+@import url(./partial/base.css);
+@import url(./partial/header.css);
+@import url(./partial/footer.css);
+
+.container{
+	padding: 2rem 1.5rem 0 1.5rem;
+}
+
+.container .title{
+	text-align: center;
+	font-size: 1.6rem;
+	margin-bottom: 1.5rem;
+}
+
+.container .content{
+	font-size: 1.5rem;
+}
+
+.container .content img{
+	width: 18rem;
+	height: 13rem;
+	float: left;
+	margin-right: 1rem;
+}
+
+.container .content span{
+	text-indent: 2rem;
+}
+

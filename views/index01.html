@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<link rel="stylesheet" href="../public/lib/swiper/swiper.min.css">
+	<link rel="stylesheet" href="../public/css/index01.css">
+	<title>index01</title>
+</head>
+<body>
+	<div class="header">
+		<span class="icon-logo"></span>
+	</div>
+	<div class="container">
+		<div class="key">
+			<div class="consult">
+				<span class="icon-consult"></span>
+				<span>一键咨询</span>
+			</div>
+			<div class="help">
+				<span class="icon-help"></span>
+				<span>一键呼救</span>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		<div class="banner">
+			<img src="../public/img/banner.jpg" alt="">
+		</div>
+		<div class="news">
+			<div class="title">实时新闻</div>
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<span class="news-img">
+			        		<img src="../public/img/news.jpg">
+			        	</span>	
+			        	<span class="news-content">2016年8月1日晚，2016年8月1日晚，2016年8月1日晚，2016年8月1日晚，2016年8月1日晚，2016年8月。</span>
+			        </div>
+			        <div class="swiper-slide">
+			        	<span class="news-img">
+			        		<img src="../public/img/news.jpg">
+			        	</span>	
+			        	<span class="news-content">2016年8月1日晚，2016年8月1日晚，2016年8月1日晚，2016年8月1日晚，2016年8月1日晚，2016年8月。</span>
+			        </div>
+			    </div>
+			    <!-- 分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<div class="product">
+			<div class="title">商品一览</div>
+			<ul>
+				<li>
+					<div class="left">
+						<img src="../public/img/card.jpg" alt="">
+					</div>
+					<div class="right">
+						<p class="card-name red">个人贵宾卡</p>
+						<p class="card-info">使用人数，限1人</p>
+						<p class="card-detail red">特权详情>></p>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="../public/img/card.jpg" alt="">
+					</div>
+					<div class="right">
+						<p class="card-name blue">家庭伴侣卡</p>
+						<p class="card-info">使用人数，限2人</p>
+						<p class="card-detail blue">特权详情>></p>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="../public/img/card.jpg" alt="">
+					</div>
+					<div class="right">
+						<p class="card-name yellow">家庭温馨卡</p>
+						<p class="card-info">使用人数，限3人</p>
+						<p class="card-detail yellow">特权详情>></p>
+					</div>
+				</li>
+				<li>
+					<div class="left">
+						<img src="../public/img/card.jpg" alt="">
+					</div>
+					<div class="right">
+						<p class="card-name green">家庭安心卡</p>
+						<p class="card-info">使用人数，限5人</p>
+						<p class="card-detail green">特权详情>></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<ul>
+			<li class="active">
+				<span class="icon-home icon"></span>
+				<span>首&nbsp;页</span>
+			</li>
+			<li>
+				<span class="icon-shop icon"></span>
+				<span>商&nbsp;城</span>
+			</li>
+			<li>
+				<span class="icon-news icon"></span>
+				<span >新&nbsp;闻</span>
+			</li>
+			<li>
+				<span class="icon-my icon"></span>
+				<span>我&nbsp;的</span>
+			</li>
+		</ul>
+	</div>
+<script src="../public/lib/jquery/jquery.min.js"></script>
+<script src="../public/lib/swiper/swiper.jquery.min.js"></script>
+<script src="../public/lib/swiper/swiper.min.js"></script>
+<script>
+	$(function(){
+		var swiper = new Swiper('.swiper-container', {
+		    pagination: '.swiper-pagination',
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+		    paginationClickable: true,
+		    spaceBetween: 30,
+		    centeredSlides: true,
+		    autoplay: 4000,
+		    autoplayDisableOnInteraction: false
+		});
+	});
+</script>
+</body>
+</html>
